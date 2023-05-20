@@ -1,0 +1,15 @@
+CREATE TABLE Users
+(
+    Id            serial       not null unique,
+    Name          varchar(255) not null,
+    Username      varchar(255) not null unique,
+    Password      varchar(255) not null
+);
+
+CREATE TABLE Messages
+(
+    Id          serial       not null unique,
+    Pub         int not null,
+    Sub         int not null,
+    Message     varchar(255) not null
+);
