@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"sth"
-	"sth/repository"
+	"sth/pkg/repository"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"

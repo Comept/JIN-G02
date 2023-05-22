@@ -2,7 +2,7 @@ package service
 
 import (
 	"sth"
-	"sth/repository"
+	"sth/pkg/repository"
 )
 
 //const salt = "sofdsoifjeoifjoewijffdg"

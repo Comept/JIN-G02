@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"sth"
-	"sth/handler"
-	"sth/repository"
-	"sth/service"
+	"sth/pkg/handler"
+	"sth/pkg/repository"
+	"sth/pkg/service"
 
 	"github.com/spf13/viper"
 )
